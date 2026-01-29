@@ -1,0 +1,146 @@
+body { /* The General color and padding of the page*/
+    padding: 50px;
+    background-color: #20124D;
+}
+
+.heading { /*All of the headings have the same design so their font and size are here*/
+    color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: auto;
+
+}
+
+.box1 { /*My name, adress and phone number uses a different format so it's boxed differently*/
+    
+    display: flex;
+    float: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#webpic1 { /*each of the images as a differnt id, this is my headshot*/
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.content1 { /*each box of content is colored the same but formatted slightly differntly*/
+    color: bisque;
+    justify-content: right;
+    margin-top: 0px;
+    margin-left: auto;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    gap: 0;
+
+    
+}
+
+.small { /*Subtext for my adress and phone number*/
+    color: bisque;
+    justify-content: right;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 50;
+
+}
+
+
+.box2 { /*This box is used to wrap the rest of the content individually*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.content2 { /*this content has an image with it*/
+    color: bisque;
+    justify-content: left;
+    margin-top: 0px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    gap: 0;
+
+}
+
+#webPic2 { /*picture of me with my family at my graduation*/
+    display: block;
+    float: right;
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: auto;
+    width: 40%;
+
+}
+
+.content3 {
+    color: bisque;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    gap: 0;
+
+}
+
+.content4 { /*Same as content2*/
+    color: bisque;
+    justify-content: right;
+    margin-top: 0px;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    gap: 0;
+
+}
+
+#webPic3 {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: auto;
+    width: 40%;
+
+}
+
+.content5 { /*list of links to various profiles*/
+    color: bisque;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    gap: 0;
+}
+
+a { /* The color for the link*/
+    color: #1FEDAF;
+}
